@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthRepo {
@@ -8,7 +9,10 @@ class AuthRepo {
           .createUserWithEmailAndPassword(email: email, password: password);
 
       final userName = email.split('@').first;
-
+      await FirebaseFirestore.instance
+          .collection('users')
+          .doc(resp.user!.uid)
+          .set({"news": [], "email": email, "username": userName});
       await resp.user!.updateDisplayName(userName);
     } on FirebaseAuthException {
       rethrow;
