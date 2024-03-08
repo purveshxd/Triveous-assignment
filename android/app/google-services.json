@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "894703779489",
+    "project_id": "storage-testing-e7b30",
+    "storage_bucket": "storage-testing-e7b30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894703779489:android:819cce1a3b80548e60fae0",
+        "android_client_info": {
+          "package_name": "com.example.news_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894703779489-v72ulq1tboru2gmb7s4eoh856b6s62p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNzejM6FCBaXfybfj6GZ8DUlZYR4Y1j2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894703779489-v72ulq1tboru2gmb7s4eoh856b6s62p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
